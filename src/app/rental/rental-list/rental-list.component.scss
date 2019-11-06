@@ -1,0 +1,124 @@
+.shadowmyman {
+	-webkit-box-shadow: 1px 4px 28px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 28px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 4px 28px 0px rgba(0,0,0,0.75);
+margin-top: 50px;
+}
+
+@media(max-width: 1200px) {
+	.changeshad {
+		width: 70%!important;	
+	}
+}
+
+@media(max-width: 567px) {
+	div.changeshad {
+		width: 85%!important;	
+	}
+	div.shadowmyman {
+		margin-left: 20vw!important;
+	}
+}
+
+@media(max-width: 389px) {
+	div.changeshad {
+		width: 100%!important;	
+	}
+	div.shadowmyman {
+		margin-left: 8vw!important;
+	}
+}
+
+
+@media(max-width: 993px) {
+	.changeshad {
+		width: 100%!important;	
+	}
+	.shadowmyman {
+		margin-left: 4vw!important;
+	}
+}
+
+@media(max-width: 590px) {
+	.burgerelement {
+		height: 90vw!important;	
+	}
+	
+}
+
+@media(max-width: 396px) {
+	.burgerelement {
+		height: 130vw!important;	
+
+	}
+
+	.secondshadowmyman {
+		height: 55vh!important;
+		width: 80vw!important;
+	}
+
+	.custombackbro {
+		height: 100vw!important;
+	}
+	
+}
+
+
+@media(max-width: 306px) {
+	
+	.burgerelement {
+		height: 170vw!important;	
+	}
+
+	.secondshadowmyman {
+		height: 65vh!important;
+	}
+
+	.custombackbro {
+		height: 115vw!important;
+	}
+	
+}
+
+@media(max-width: 335px) {
+	.secondshadowmyman {
+		width: 80vw!important;
+	}
+
+	.custombackbro {
+		height: 120vw!important;
+	}
+	
+}
+
+
+.secondshadowmyman {
+	-webkit-box-shadow: 1px 4px 28px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 28px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 4px 28px 0px rgba(0,0,0,0.75);
+
+}
+
+.burgerelement {
+	background-image: url("../../../assets/images/22.jpg");
+	background-position: 50% 50%;
+
+	background-repeat: no-repeat;
+	background-color: rgba(50, 54, 59,1);
+  background-blend-mode: multiply;
+}
+
+.icoed {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 48px;
+	padding-right: 10px;
+}
+
+.custombackbro {
+	background-image: url("../../../assets/images/whypaymore.jpg");
+	background-position: 94% 6%;
+	background-repeat: no-repeat;
+	background-color: rgba(50, 54, 59,1);
+  background-blend-mode: multiply;
+}

@@ -1,0 +1,106 @@
+<section id="rentalListing">
+	<div class="container-fluid border burgerelement" style="position: relative;">
+      <div class="container" style="height: 30vw; position: relative;">
+
+        <div class="row  justify-content-center align-items-end" style="position: relative;">
+
+                  <div class="row changeshad justify-content-around align-items-center" style="position: absolute; top: 0; left: 0; z-index: 10000; width: 60%; height: 100%;">
+           <!--  <div class="col-sm-3 ">
+               
+            </div> -->
+            <div class="col-sm-4 shadowmyman text-center" style="border-radius: 10px; margin-left: 35vw; background: white;">
+
+            	<i class="fa fa-plane icoed" style="padding-left: 20px"></i>
+            	<i class="fa fa-taxi icoed" style=""></i>
+            	<i class="fa fa-building icoed" style=""></i>
+                        
+            </div>
+            <!-- <div class="col-sm-3">
+               
+            </div> -->
+                  </div>
+               
+            </div> 
+            <div class="secondshadowmyman" style="height: 35vh; border-radius: 10px; position: absolute; top: 0; left: 0;z-index: 1000; padding-top: 100px; margin-left: 7vw; margin-top: 80px; background: white;width: 70vw">
+            	<div class="row">	
+
+
+            	<div style=";margin-left: 20px;width: 200px; border: 1px solid black ;border-radius: 5px;height: 40px" class="mb-2">	
+
+                	<i class="fa fa-map-marker" style="padding-right: 5px; padding-left: 5px;font-size: 20px"></i>
+                	<input type="text" name="" placeholder="Hotel Location" style="border:none;outline: none;"> 
+                </div>
+
+                <div style=";margin-left: 20px;width: 220px; border: 1px solid black ;border-radius: 5px;height: 40px" class="mb-2">	
+
+                	<i class="fa fa-calendar" style="padding-right: 5px; padding-left: 5px;font-size: 20px"></i>
+                	<input type="date" name="" placeholder="Dates" style="border:none;outline: none;"> 
+                </div>
+
+                <div style=";margin-left: 20px;width: 220px; border: 1px solid black ;border-radius: 5px;height: 40px" class="mb-2">	
+
+                	<i class="fa fa-sort-numeric-asc" style="padding-right: 5px; padding-left: 5px;font-size: 20px"></i>
+                	<input type="number" name="" placeholder="Rooms" style="border:none;outline: none;"> 
+                </div>
+
+                <div style=";margin-left: 20px;width: 220px; border: 1px solid black ;border-radius: 5px;height: 40px">	
+
+                	<i class="fa fa-users" style="padding-right: 5px; padding-left: 5px;font-size: 20px"></i>
+                	<input type="number" name="" placeholder="People" style="border:none;outline: none;"> 
+                </div>
+
+            	</div>
+                
+            </div>
+
+        </div>
+	</div>
+  <div class="container">
+  <h1 class="page-title text-center">Recommended BookMyStay For You</h1>
+  <div class="row">
+    <div class='col-md-3 col-xs-6' *ngFor="let rental of rentals">
+      <bwm-rental-list-item [rental]="rental"> </bwm-rental-list-item>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="container-fluid mt-4">
+        <div class="row border justify-content-start align-items-center">
+          <div class="col-sm-7" style="padding-left: 12vw"><h1 class="display-5">Save big. Travel better.</h1></div>
+          
+        </div>
+        
+        
+        <div class="row border justify-content-center align-items-center">
+            <div class="col-sm-3 mr-2">
+                <img class="img-fluid" src="../../../assets/images/imageforgrid.jpg">  
+            </div>
+           
+            <div class="col-sm-3 mr-2">
+                <img class="img-fluid" src="../../../assets/images/imageforgrid.jpg">           
+            </div>
+
+            <div class="col-sm-3 ">
+                <img class="img-fluid" src="../../../assets/images/imageforgrid.jpg"> 
+            </div>
+        </div>        
+    </div>
+
+    <div class="container-fluid mt-4">
+        <div class="row border justify-content-center align-items-center">
+           
+           
+            <div class="col-sm-12 custombackbro" style="height: 20vw">
+                <p class="display-4 text-center text-white pt-3">Why pay more?</p>
+                <p class="text-center text-white">25% OFF on Villas, Apartments & Homes! Free Cancellations on Flights & Hotels for Member + 1 Co-Traveller</p>
+                <div class="text-center pb-2">
+                  <input type="button" value="SIGN UP NOW" class="btn btn-danger">
+                </div>
+                
+            </div>
+
+           
+        </div>        
+    </div>
+</section>
